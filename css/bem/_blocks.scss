@@ -1,4 +1,4 @@
-%add-width {
+%app-width {
   width: 980px;
   margin: 0 auto;
 }
@@ -7,14 +7,14 @@
   height: 56px;
   background-color: $black;
   &__inner{
-    @extend %add-width;
+    @extend %app-width;
   }
 }
 
 .main{
-  @extend %add-width;
+  @extend %app-width;
 }
 
 .footer{
-  @extend %add-width;
+  @extend %app-width;
 }
