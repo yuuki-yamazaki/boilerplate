@@ -3,18 +3,19 @@
   margin: 0 auto;
 }
 
-.header{
+.header {
   height: 56px;
   background-color: $black;
-  &__inner{
+
+  &__inner {
     @extend %app-width;
   }
 }
 
-.main{
+.main {
   @extend %app-width;
 }
 
-.footer{
+.footer {
   @extend %app-width;
 }
