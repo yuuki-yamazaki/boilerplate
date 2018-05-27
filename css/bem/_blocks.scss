@@ -1,0 +1,20 @@
+%add-width {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 56px;
+  background-color: $black;
+  &__inner{
+    @extend %add-width;
+  }
+}
+
+.main{
+  @extend %add-width;
+}
+
+.footer{
+  @extend %add-width;
+}
