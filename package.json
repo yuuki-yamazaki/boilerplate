@@ -6,7 +6,8 @@
   "author": "yuuki163y <yuuki163y@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start:bem": "parcel ./html/bem.html"
+    "start:bem": "parcel ./html/bem.html",
+    "start:oocss": "parcel ./html/oocss.html"
   },
   "devDependencies": {
     "autoprefixer": "^8.5.1",
