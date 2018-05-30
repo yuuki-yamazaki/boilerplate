@@ -1,0 +1,11 @@
+.button {
+  width: 229px;
+  height: 34px;
+  appearance: none;
+}
+
+.is-button-disable {
+  background-color: #eee;
+  color: #999;
+  pointer-events: none;
+}

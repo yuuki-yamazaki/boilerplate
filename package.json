@@ -8,6 +8,7 @@
   "scripts": {
     "start:bem": "parcel ./html/bem.html",
     "start:oocss": "parcel ./html/oocss.html",
+    "start:smacss": "parcel ./html/smacss.html",
     "lint:css": "stylelint ./css/**/*.scss"
   },
   "devDependencies": {
