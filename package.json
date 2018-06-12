@@ -6,7 +6,7 @@
   "author": "yuuki163y <yuuki163y@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --mode development --watch",
+    "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },

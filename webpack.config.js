@@ -16,6 +16,7 @@ module.exports = (env, argv) => {
   return {
     // エントリーポイントの設定
     entry: './src/js/app.js',
+    watch: IS_DEVELOPMENT ? true : false,
     // 出力の設定
     output: {
       // 出力するファイル名
